@@ -14,13 +14,24 @@ console.log(isStudent);
 
 
 const myArray = [1, 2, 3, 4, 5];
-const namesArray = ["Alice", "Dean", "Esther"]
-console.log(myArray)
-console.log(namesArray)
+const namesArray = ["Alice", "Dean", "Esther"];
+console.log(myArray);
+console.log(namesArray);
 
 const person = {
     name: "Alice",
     age: 33,
-    isStudent: true
-}
+    isStudent: true,
+};
+
 console.log(person)
+
+
+// type casting
+let myNumber = 42;
+let convertToString = String(myNumber);
+console.log(typeof convertToString); // should print "string"
+
+let myString = "100";
+let convertToNumber = Number(myString);
+console.log(typeof convertToNumber); // should print "number"
